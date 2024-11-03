@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.grid {
+    display: grid;
+    gap: 2px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc; 
+}
+
+
+.north-wall { border-top: 3px solid #333; }
+.east-wall { border-right: 3px solid #333; }
+.south-wall { border-bottom: 3px solid #333; }
+.west-wall { border-left: 3px solid #333; }
+
+.start { background-color: #6c9; }
+.goal { background-color: #f66; }
+.route { background-color: #87CEFA; }
